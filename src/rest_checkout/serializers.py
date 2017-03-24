@@ -1,13 +1,13 @@
-from rest_framework.serializers import Serializer
+from rest_framework.serializers import ModelSerializer, Serializer
 
 
 class CheckoutSerializer(Serializer):
     pass
 
 
-class ShippingAddressSerializer(Serializer):
+class ShippingAddressSerializer(ModelSerializer):
     pass
 
 
-class BillingAddressSerializer(Serializer):
+class BillingAddressSerializer(ModelSerializer):
     pass
