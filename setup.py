@@ -67,10 +67,14 @@ setup(
     install_requires=[
         'django>=1.10',
         'djangorestframework>=3.6.2',
+        'django-shop==0.10',
     ],
     extras_require={
         # eg:
         #   'rst': ['docutils>=0.11'],
         #   ':python_version=="2.6"': ['argparse'],
     },
+    dependency_links=[
+        'git+https://github.com/awesto/django-shop.git#egg=django-shop-0.10',
+    ],
 )
