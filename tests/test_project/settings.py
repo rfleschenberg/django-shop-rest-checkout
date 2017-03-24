@@ -14,5 +14,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'menus',
+    'easy_thumbnails',
+    'shop',
     'rest_checkout',
+    'test_project',
 ]
+
+SHOP_APP_LABEL = 'test_project'
